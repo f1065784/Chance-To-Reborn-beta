@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0244622206b3f748a3eafcb95f53e1d, type: 3}
+  m_Name: BankirSelection
+  m_EditorClassIdentifier: 
+  question: "\u043F\u043E\u0433\u0430\u0441\u0438\u0442\u0438 \u0449\u0435 50 \u0442\u0438\u0441\u044F\u0447
+    \u0431\u043E\u0440\u0433\u0443?"
+  answer1: "\u0422\u0430\u043A"
+  answer2: "\u041D\u0456"
+  answer3: 
+  onAnswer1Selected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1073393783066950063, guid: 9abfef3da455ebb4385f919290af7b80, type: 3}
+        m_TargetAssemblyTypeName: Events, Assembly-CSharp
+        m_MethodName: ChooseFamilyRoomPath_Room_5
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onAnswer2Selected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1073393783066950063, guid: 9abfef3da455ebb4385f919290af7b80, type: 3}
+        m_TargetAssemblyTypeName: Events, Assembly-CSharp
+        m_MethodName: ChooseFriendVadimPath_Room_6
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onAnswer3Selected:
+    m_PersistentCalls:
+      m_Calls: []
+  hasOneOption: 0

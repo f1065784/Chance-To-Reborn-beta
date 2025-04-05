@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ea462442e4046845a9eb8b029cd4a25, type: 3}
+  m_Name: Room4
+  m_EditorClassIdentifier: 
+  roomPrefab: {fileID: 2494065676453173994, guid: c88d1cb563e72004dbcd2424eb319544, type: 3}
+  spawnPosition: {x: 3.65, y: 8.81, z: 0}
+  playerSpawnPosition: {x: -0.25, y: 17.32, z: 0}
+  transitions:
+  - transitionId: ROOM_9
+    nextRoom: {fileID: 11400000, guid: 6341f0cc1d1c40c4eaa64023d8fba14a, type: 2}
+  - transitionId: ROOM_10
+    nextRoom: {fileID: 11400000, guid: 252c1c76ecde5b9428b846a10a503f26, type: 2}

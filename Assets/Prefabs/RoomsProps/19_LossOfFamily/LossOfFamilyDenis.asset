@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0756cb70a2a12444db91103afc3d9f8c, type: 3}
+  m_Name: LossOfFamilyDenis
+  m_EditorClassIdentifier: 
+  dialogue:
+  - "\u0422\u0430\u0442\u0443, \u043F\u0440\u043E\u0431\u0430\u0447"
+  - "\u042F \u0445\u043E\u0447\u0443 \u0437\u0430\u043B\u0438\u0448\u0438\u0442\u0438\u0441\u044F,
+    \u0430\u043B\u0435 \u044F \u043D\u0435 \u043C\u043E\u0436\u0443 \u043A\u0438\u043D\u0443\u0442\u0438
+    \u043C\u0430\u0442\u0456\u0440"
+  responses: []
+  selectionObject: {fileID: 11400000, guid: e728502ca749e0c49be08936950440f2, type: 2}
